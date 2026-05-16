@@ -1,0 +1,10 @@
+export 'domain/message_model.dart';
+export 'domain/conversation_model.dart';
+export 'domain/providers/chat_providers.dart';
+export 'data/chat_repository.dart';
+export 'data/media_service.dart';
+export 'presentation/widgets/chat_bubble.dart';
+export 'presentation/widgets/chat_input.dart';
+export 'presentation/screens/chat_screen.dart';
+export 'presentation/screens/chat_list_screen.dart';
+export 'presentation/screens/new_chat_dialog.dart';

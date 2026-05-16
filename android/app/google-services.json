@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "296005702366",
+    "project_id": "chatapp-f5329",
+    "storage_bucket": "chatapp-f5329.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:296005702366:android:8a5eda8b0930bf56b9a84f",
+        "android_client_info": {
+          "package_name": "dev.logickoder.flutter_chat_starter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEfQIuz0XlPnh3Kfh5RDxVOR-fjoJSgCo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
