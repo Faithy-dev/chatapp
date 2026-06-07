@@ -1,35 +1,35 @@
-# 🚀 Premium Flutter Chat Application
+# Premium Flutter Chat Application
 
 A high-performance, feature-rich chat application built with Flutter, Riverpod, and Firebase. This project focuses on real-time responsiveness, clean architecture, and a premium user experience with a modern glassmorphic UI.
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
-### 💬 Messaging & Real-time Sync
+### Messaging & Real-time Sync
 - **Real-time Synchronization**: Messages sync in under 2 seconds across all devices.
 - **Typing Indicators**: Dynamic visual cues when the other user is composing a message.
 - **Read Receipts**: Sophisticated status tracking (**Sent** → **Delivered** → **Seen**).
 - **In-Chat Search**: Lightning-fast search within conversations with highlighted results and easy navigation.
 
-### 📁 Media & Rich Content
+### Media & Rich Content
 - **Audio Messages**: High-quality voice recording and playback with adjustable speeds (1x, 1.5x, 2x).
 - **Media Attachments**: Seamless sending of images, videos, and documents.
 - **Client-Side Compression**: Mandatory compression of media before upload to optimize bandwidth and storage.
 - **Full-Screen Viewers**: Integrated immersive viewers for images and videos.
 
-### 🛠 Message Controls
+### Message Controls
 - **Edit/Delete**: Full control over your sent messages, including "Delete for Everyone" enforced by server-side rules.
 - **Emoji Reactions**: Express yourself with instant reactions, synced in real-time.
 
-### 🎨 Design & UX
+### Design & UX
 - **Glassmorphic UI**: A modern, premium aesthetic with blur effects and sleek transitions.
 - **Dynamic Themes**: Support for system Light/Dark modes and custom primary color switching (Blue/Red).
 - **Optimized Performance**: Shimmer loading states and smooth animations for a fluid experience.
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - **Framework**: [Flutter](https://flutter.dev)
 - **State Management**: [Riverpod](https://riverpod.dev)
@@ -40,7 +40,7 @@ A high-performance, feature-rich chat application built with Flutter, Riverpod, 
 
 ---
 
-## 🏗 Project Structure
+##  Project Structure
 
 ```text
 lib/
@@ -48,7 +48,7 @@ lib/
 ├── features/
 │   ├── auth/           # Authentication logic (Login, Signup, User Model)
 │   └── chat/           # Core messaging, search, and media features
-│       ├── domain/     # Business logic & Data Models
+│       ├── domain/     #  logic & Data Models
 │       ├── data/       # Repositories & API sources
 │       └── presentation/# UI components, Screens, and Controllers
 └── main.dart           # Application entry point
@@ -56,7 +56,7 @@ lib/
 
 ---
 
-## 🚀 Setup & Installation
+## Setup & Installation
 
 ### Prerequisites
 - Flutter SDK installed
@@ -94,7 +94,7 @@ lib/
 
 ---
 
-## 🛡 Security & Performance
+## Security & Performance
 
 - **Firestore Rules**: Security is enforced at the database level. Users can only delete their own messages for everyone, and read access is restricted to authenticated conversation participants.
 - **Bandwidth Optimization**: 
@@ -104,7 +104,7 @@ lib/
 
 ---
 
-## 📱 Troubleshooting
+##  Troubleshooting
 
 ### iOS Code Signing Issues
 If you encounter `MIInstallerErrorDomain Code: 13` when deploying to a physical device:
@@ -115,5 +115,5 @@ If you encounter `MIInstallerErrorDomain Code: 13` when deploying to a physical 
 
 ---
 
-## 📄 License
+##  License
 This project is for demonstration purposes. Refer to the project's license file for more details.
